@@ -1,0 +1,38 @@
+.Weather li {
+  font-size: 16px;
+  font-weight: 100px;
+  line-height: 18px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+.Weather footer {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: grey;
+  font-size: 52px;
+  line-height: 20px;
+  float: left;
+}
+
+.Weather img {
+  margin-right: 10px;
+
+  float: left;
+}
+
+.Weather .unit {
+  float: left;
+  padding: 5px;
+  font-size: 18px;
+  color: grey;
+  font-weight: 500px;
+  position: relative;
+  top: -20px;
+  line-height: 1;
+}

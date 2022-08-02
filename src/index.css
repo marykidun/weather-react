@@ -12,11 +12,6 @@ code {
     monospace;
 }
 
-ul {
-  list-style: none;
-  text-align: center;
-  font-size: 22px;
-}
 form {
   margin-top: 30px;
   padding: 30px;
@@ -24,27 +19,22 @@ form {
 button {
   margin: 5px;
 }
-h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: left;
-  margin-left: 10px;
-
-  margin-top: 5px;
-  padding: 10px;
-}
 
 .App {
-  max-width: 800px;
-  margin: 30px auto;
+  max-width: 900px;
+  margin: 20px auto;
   border: 2px solid rgba(11, 93, 216, 0.349);
   border-radius: 5px;
   padding: 38px;
-  background-color: lightcyan;
+
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+
   color: brown;
   font-size: 38px;
   font-weight: 500px;

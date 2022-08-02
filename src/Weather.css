@@ -1,7 +1,11 @@
+ul {
+  list-style: none;
+}
+
 .Weather li {
-  font-size: 16px;
-  font-weight: 100px;
-  line-height: 18px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
 }
 
 .Weather form {
@@ -15,21 +19,21 @@
 .Weather .temperature {
   font-weight: bold;
   color: grey;
-  font-size: 52px;
-  line-height: 20px;
-  float: left;
+  position: relative;
+  font-size: 46px;
+  top: auto;
+  margin-left: 0;
+  margin-right: 0px;
+  padding: 0;
 }
-
-.Weather canvas {
-  margin-right: 5px;
-  margin-bottom: 55px;
-  float: left;
+.icon {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .Weather .unit {
-  float: left;
   padding: 5px;
-  font-size: 18px;
+  font-size: 16px;
   color: grey;
   font-weight: 500px;
   position: relative;

@@ -26,7 +26,7 @@ button {
   border: 2px solid rgba(11, 93, 216, 0.349);
   border-radius: 5px;
   padding: 38px;
-
+  background-image: url(./photo2.jpg);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

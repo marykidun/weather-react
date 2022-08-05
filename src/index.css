@@ -25,7 +25,8 @@ button {
   margin: 20px auto;
   border: 2px solid rgba(11, 93, 216, 0.349);
   border-radius: 5px;
-  padding: 38px;
+  padding: 38px 38px 10px 38px;
+
   background-image: url(./photo2.jpg);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -44,5 +45,6 @@ button {
 
 .App footer {
   font-size: 14px;
-  margin: 10px 0;
+  margin: 25px 0 0 0;
+  padding: 0;
 }

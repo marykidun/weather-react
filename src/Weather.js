@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+
 import axios from "axios";
 
 import "./Weather.css";
@@ -17,6 +18,7 @@ export default function WeatherSearch(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
       humidity: response.data.main.humidity,
+      clouds: response.data.clouds.all,
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),

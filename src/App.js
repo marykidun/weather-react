@@ -10,6 +10,28 @@ function App() {
       <div className="container">
         <h1>Weather Lab</h1>
         <Weather defaultCity="Valencia" />
+        <footer>
+          The project is made by{" "}
+          <a
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            rel="noopener  noreferrer"
+            className="mediaLink"
+          >
+            {" "}
+            Maryna Kidun
+          </a>{" "}
+          and is open-sourced on{" "}
+          <a
+            href="https://github.com/marykidun/weather-react.git"
+            target="_blank"
+            rel="noopener
+            noreferrer"
+            className="mediaLink"
+          >
+            GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );

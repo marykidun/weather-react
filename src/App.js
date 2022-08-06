@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Weather Lab</h1>
-        <Weather defaultCity="Valencia" />
+        <Weather defaultCity="Rivne" />
         <footer>
           The project is made by{" "}
           <a
